@@ -1,0 +1,130 @@
+\documentclass{article}
+%\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=20mm,
+ right=20mm,
+ top=-2mm,
+ bottom=2mm,
+ }
+%\usepackage[margin=0.5in]{geometry}
+
+\usepackage{amsmath,amssymb}
+\usepackage{ifpdf}
+%\usepackage{cite}
+\usepackage{algorithmic}
+\usepackage{array}
+\usepackage{mdwmath}
+\usepackage{pdfpages}
+\usepackage{mdwtab}
+\usepackage{eqparbox}
+\usepackage{cite}
+%\onecolumn
+%\input{psfig}
+\usepackage{color}
+\usepackage{graphicx}
+\setlength{\textheight}{23.5cm} \setlength{\topmargin}{-1.05cm}
+\setlength{\textwidth}{6.5in} \setlength{\oddsidemargin}{-0.5cm}
+\renewcommand{\baselinestretch}{1}
+\pagenumbering{arabic}
+\usepackage{ragged2e}
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+
+\textbf{
+\begin{center}
+{
+\large{School of Engineering and Applied Science (SEAS), Ahmedabad University}\vspace{4mm}
+}
+\end{center}
+%
+\begin{center}
+\large{B.Tech(CSE) Semester IV: Probability and Stochastic Processes (MAT 277) }\\ \vspace{3mm}
+\end{center}
+}
+\begin{itemize}
+\item Group No :BB21
+\item Name (Roll No) :  Group Members \item Roll no:\\ 
+Vats Joshi(AU1940006)\\Deepang Desai(AU1940041)\\Abhi Patel(AU1940117)\\Sarjil Patel(AU1940281)\\Satya Shah(AU1940288)\\Smit Shah(AU1940291)
+                                                     
+%\item Associated with Project: DST-UKIERI
+\item Project Title: BIOLOGICAL AGE CALCULATOR AND VISUALIZER
+
+\end{itemize} 
+
+\section {Justify how probabilistic model/PSP concept is used in your project. How uncertainty is modeled?}
+\begin{itemize}
+ 
+\item Modeling of physical/real-time uncertain Problem, Study of any existing probability based models etc.,
+\\
+\\ We have used the concept of random variables to create the slope values of different groups to predict a linear model of biological age that helps any common man to visualize his age through graphs.
+\\
+\\ These calculated age has helped in making Gaussian distribution models that depict a likelihood of a certain age in a particular group. This model shows how same age ranges have larger differences in likelihood between chronological and biological age.
+ 
+\end{itemize}
+
+\section{Clearly enlist the new things done in the coding part, excluding the shared code. [If no new code is written/added/modified, then please write NA]}
+
+\begin{enumerate}
+    \item We have attempted to make the entire code by ourselves.
+    \item We have not copied anything from the given code.
+\end{enumerate}
+
+
+
+\section{Contribution of team members}	
+\subsection{Technical contribution of all team members }
+Enlist the technical contribution of members in the table. Redefine the tasks (e.g Task-1 as simulation of fig.1 and so on)
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+Tasks  & Team member 1 & Team member 2 & Team member 3 & Team member 4 & Team member 5 & Team member 6 \\ \hline
+Linear model & AU1940117(Abhi)              &  AU1940281(Sarjil)             & AU1940288(Satya)              & AU1940291(Smit)              &               &                \\ \hline
+Gaussian model & AU1940006(Vats)              & AU1940041(Deepang)              &               &               &               &            \\ \hline
+GUI model & AU1940006(Vats)              & AU1940041(Deepang)              & AU1940288(Satya)              & AU1940291(Smit)              & AU1940281(Sarjil)              &             \\ \hline
+\end{tabular}
+\end{table}
+\subsection{Non-Technical contribution of all team members }
+Enlist the non-technical contribution of members in the table. Redefine the tasks (e.g Task-1 as report writing etc.)
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Tasks  & Team member 1 & Team member 2 & Team member 3 & Team member 4 & Team member 5 \\ \hline
+Calculations & AU1940117(Abhi)              & AU1940006(Vats)              &               &               &               \\ \hline
+MIRO & AU1940041(Deepang)              & AU1940006(Vats)              & AU1940291(Smit)              & AU1940288(Satya)              &              AU1940281(Sarjil) \\ \hline
+Report & AU1940041(Deepang)               &               &               &               &               \\ \hline
+\end{tabular}
+\end{table}
+
+\section{Any innovation done considering the society/neighborhood problem?}
+\begin{itemize}
+\item Yes 
+\item We have made a Graphical User Interface that displays the biological age of a person after he/she enters his chronological age,smoking habit and the disease he/she is suffering.
+\\ This age is calculated on the basis of the previous data that is stored in the excel.
+\\Also this data is stored in the excel file and can be useful in updating the previous data.
+\item The Gaussian distribution created is a more user friendly model in understanding the effects of smoking and other diseases to the common man. The basic purpose for this model is to solve the complex look of Gaussian mixture model.
+
+\end{itemize} 
+
+
+\section{Enumerate the inferences derived from user-centric perspective.}
+	
+\begin{enumerate}
+\item The linear models have a clear vision on increase in the biological age if considering any of the factors. 
+\item The Gaussian distribution makes a quite technical inference. It shows that having the same chronological age group the biological age curve should also show the same likelihood but this is not observed in the graph.
+\\
+There is a very low likelihood for lower ages and a very high likelihood for higher ages depicting that the same age group has a higher biological age.
+\\
+Also the shift in the mean value and spreading of the graph can be clearly seen which can give idea at the first sight that the curve depicting the smoking and diseases has some problem with respect to the healthy group.
+\item The Gaussian mixture model target a specific age and reflects the outcomes of the combined effect of smoking and diseases.
+\end{enumerate} 
+
+\bibliographystyle{IEEEtran}
+\bibliography{ref.bib}
+
+\end{document} 
